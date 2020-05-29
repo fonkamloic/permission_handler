@@ -64,6 +64,7 @@ class _LocationDialogState extends State<LocationDialog>
       PermissionGroup.locationWhenInUse,
       PermissionGroup.locationAlways
     ]);
+
     final status = statuses[PermissionGroup.locationWhenInUse];
     switch (status) {
       case PermissionStatus.disabled:
